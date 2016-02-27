@@ -24,8 +24,6 @@ Adafruit_SSD1306 display(OLED_RESET);
 #include <PID_v1.h>
 #define RELAY_PIN 6
 double setPoint, input, output;
-//double Kp=2, Ki=5, Kd=1;
-//int windowSize = 5000; // ms
 #define Kp 2
 #define Ki 5
 #define Kd 1
